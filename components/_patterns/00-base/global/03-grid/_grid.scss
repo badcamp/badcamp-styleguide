@@ -1,0 +1,8 @@
+.sample-grid {
+  margin-bottom: 2em;
+  .cell {
+    background: $light-gray;
+    padding: 10px 15px;
+    min-height: 80px;
+  }
+}

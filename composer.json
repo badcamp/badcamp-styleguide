@@ -1,0 +1,16 @@
+{
+  "name": "badcamp/badcamp-styleguide",
+  "description": "Pattern Lab for BADCamp Styles",
+  "version": "0.0.1",
+  "type": "design-system",
+  "require": {
+    "composer/installers": "^1.6"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "M Miller",
+      "email": "miller.2676@gmail.com"
+    }
+  ]
+}
