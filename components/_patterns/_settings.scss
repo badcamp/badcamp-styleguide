@@ -62,36 +62,26 @@
 
 @import '../../node_modules/foundation-sites/scss/util/util';
 @import '00-base/global/01-colors/_color-vars.scss';
-// @import '00-base/global/02-typography/_typography.scss';
+@import '00-base/global/02-typography/_typography.scss';
 
 // 1. Global
 // ---------
 
 // fonts
-$fairplex: fairplex-narrow, serif;
-$fairplex-wide: fairplex-wide, serif;
-$monsterrat: 'Montserrat', sans-serif;
-$playfair: 'Playfair Display', serif;
-$helvetica: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-$font-awesome: 'Font Awesome\ 5 Free';
-$fjallo-one: 'Fjalla One', sans-serif;
-$lato: 'Lato', sans-serif;
-$roboto: 'Roboto', sans-serif;
-$roboto-condensed: 'Roboto Condensed', sans-serif;
 $global-font-size: 100%;
 $global-width: rem-calc(1440);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: $lightblue,
-  secondary: #767676,
-  success: #3adb76,
+  secondary: $dark-gray,
+  success: $dark-tealish,
   warning: $gold,
   alert: $dark-salmon,
 );
 
 $body-background: $white;
 $body-font-color: $navy;
-$body-font-family: $fairplex-wide;
+$body-font-family: $pt-serif-wide;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -140,7 +130,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $monsterrat;
+$header-font-family: $montserrat;
 $header-font-weight: $global-weight-bold;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
