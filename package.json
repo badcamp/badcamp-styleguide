@@ -14,15 +14,15 @@
     "url": "https://github.com/badcamp/badcamp-styleguide"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.7.0",
-    "autoprefixer": "^9.7.1",
+    "@babel/polyfill": "^7.8.3",
+    "autoprefixer": "^9.7.4",
     "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.26.7",
     "cssnano": "^4.1.10",
     "del": "^4.1.1",
-    "foundation-sites": "^6.5.3",
+    "foundation-sites": "^6.6.1",
     "fs": "0.0.1-security",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "gulp": "^4.0.2",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.20.0"
   },
   "pre-commit": "lint",
   "engines": {
