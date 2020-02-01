@@ -1,0 +1,29 @@
+items:
+  - name: $lightblue
+    value: '#02a0e4'
+  - name: $midblue
+    value: '#0175a7'
+  - name: $navy
+    value: '#0a2240'
+  - name: $tealish
+    value: '#50c4b7'
+  - name: $dark-tealish
+    value: '#189a90'
+  - name: $salmon
+    value: '#ff8568'
+  - name: $dark-salmon
+    value: '#e36c4f'
+  - name: $gold
+    value: '#ffba02'
+  - name: $white
+    value: '#fefefe'
+  - name: $grayish
+    value: '#f4f4f4'
+  - name: $light-gray
+    value: '#e6e6e6'
+  - name: $medium-gray
+    value: '#cacaca'
+  - name: $dark-gray
+    value: '#6e6e6e'
+  - name: $black
+    value: '#0a0a0a'
