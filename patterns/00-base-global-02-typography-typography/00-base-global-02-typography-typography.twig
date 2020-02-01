@@ -1,0 +1,25 @@
+<div class="sg-typography">
+  {% for family in families %}
+    {% set name = family.name %}
+
+    <div class="sg-typography__group">
+
+      {% for font in family.fonts %}
+        {% if name == "Montserrat" %}
+          {% set value = "'Montserrat', sans-serif" %}
+        {% elseif name == "PT Serif" %}
+          {% set value = "'PT Serif', serif" %}
+        {% endif %}
+        {% set weight = font.weight %}
+        {% set style = font.style %}
+
+        <div class="sg-info">
+          <span style="font-weight: {{ weight }}; font-family: {{ value }}; font-style: {{ style }}">{{ name }} {{ weight }} {{ style }}</span>
+        </div>
+
+      {% endfor %}
+    </div>
+
+  {% endfor %}
+</div>
+
